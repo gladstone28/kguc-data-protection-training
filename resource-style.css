@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%; /* Ensure the minimum height is the full viewport */
+    position: relative;
+}
+
+main {
+    padding-bottom: 60px; /* Adjust this value based on the actual height of your footer */
+}
+
+footer {
+    position: relative;
+    height: 50px; /* Set this to the actual height of your footer */
+    width: 100%;
+    text-align: center;
+    margin-top: -50px; /* Negative margin equal to footer height */
+}
+
+/* Ensure footer text is vertically centered if height is adjusted */
+footer p {
+    line-height: 50px; /* Match the footer height for vertical centering */
+}
